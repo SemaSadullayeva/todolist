@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>To-DoList</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+     <body>
+        <div class="container">
+            <div class="intro_list">
+                <div class="intro_block"> </div>
+                  <div class="intro_todo">
+                    <div class="text">To-Do List</div>
+                      <div class="intro_image">
+                        <img  onclick="sortLi()" class="desc"  id="descid" src="image1.png" alt="">
+                        <img onclick="sortLi()" class="asc" id="ascid"  src="image2.png" alt=""> 
+                      </div>
+                          <div class="intro_input">
+                           <input  type="text" class="input1" id="inpid">
+                            <img class="deleteimg" src="image3.png">
+                           </div>
+                               <div id="addlist"  class="addlist"> </div>
+                                 <div class="intro_image1">
+                                  <img class="imgbtn" src="Frame.png" alt="">
+                               </div>
+                    </div>
+            </div> 
+        </div>
+        <script src="code.js"></script>    
+     </body>
+</html>

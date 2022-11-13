@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.container{
+    max-height: auto;
+}
+.intro_list
+{
+box-sizing: border-box;
+position: absolute;
+width: 336px;
+left: 408px;
+top: 232px;
+border: 1px solid #C4C4C4;
+border-radius: 10px;
+padding-bottom: 5px;
+}
+.intro_block{
+background-color: #FFDC40;
+width: 336px;
+height: 28px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+left: 408px;
+top: 232px;
+}
+.text{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 26px;
+line-height: 30px;
+text-align: center;
+text-transform: capitalize;
+width: 198px;
+height: 34px;
+margin-left: 69px;
+margin-right: 69px;
+margin-top: 13px;
+}
+.intro_input{ 
+    box-sizing: border-box;
+    width: 286px;
+    height: 40px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     margin-left: 28px; 
+    margin-right: 20px; 
+
+}
+
+
+.deleteimg{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+.input1
+{
+    width: 286px;
+
+}
+input{
+    border:none;
+    outline: none;
+
+}
+.todo-list{
+    display: flex;
+   max-width: 286px;
+    height: 40px;
+    padding: 5px;
+    align-items: center;
+ 
+}
+
+  .todoli
+{
+display: flex;
+align-items: center;
+width:90%;
+justify-content: space-between;
+}   
+.addlist{
+    margin-top: 10px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    max-width:286px;
+    margin: 5% auto;
+    display: inline;
+     overflow-x: hidden;
+     overflow-y: scroll;
+     display: none;
+     max-height: 100px;
+
+}
+
+.imgbtn{
+position: relative;
+margin-top: 18px;
+ margin-left:92px;
+}
+.intro_image{
+    display: flex;
+    margin-left: 285px;
+    margin-top: 16px;
+}
+.desc{
+    display: none;
+}
+ 
+.asc:hover{
+    background-image: url("image5.png");
+}
+.delete2{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-position:left top;
+}
+.delete2:hover{
+    background-image: url("image4.png");
+   
+}
+.deleteimg:hover{
+    background-image: url("image4.png");
+   
+}
+
+
+
+
+
+
